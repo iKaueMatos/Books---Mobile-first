@@ -1,0 +1,150 @@
+        .cabeçalho__menu-hamburguer {
+            width: 24px;
+            height: 24px;
+            background-image: url("../img/Menu.svg ");
+            background-repeat: no-repeat;
+            background-position: center;
+            display: inline-block;
+        }
+        
+        .container__botao:checked~.container__rotulo>.cabeçalho__menu-hamburguer {
+            background-image: url("..img/Favoritos.svg ");
+        }
+        
+        .container__botao:checked~.container__rotulo {
+            background: var(--azul-degrade);
+        }
+        
+        .cabeçalho {
+            background-color: var(--branco);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: relative;
+        }
+        
+        .container {
+            display: flex;
+            align-items: center;
+        }
+        
+        .container__imagem {
+            padding: 1em;
+        }
+        
+        .lista-menu {
+            display: none;
+            position: absolute;
+            top: 100%;
+            width: 60vw;
+        }
+        
+        .container__botao:checked~.lista-menu {
+            display: block;
+        }
+        
+        .lista-menu__titulo,
+        .lista-menu__item {
+            padding: 1em;
+            background-color: var(--branco);
+        }
+        
+        .lista-menu__titulo {
+            color: var(--laranja);
+            font-weight: 700;
+        }
+        
+        .lista-menu__link {
+            background: var(--azul-degrade);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            text-transform: uppercase;
+        }
+        
+        .container__botao {
+            display: none;
+        }
+        
+        .container__titulo {
+            display: none;
+        }
+        
+        .opções {
+            display: none;
+        }
+        
+        .container__texto {
+            display: none;
+        }
+        
+        .container-titulo {
+            display: none;
+        }
+        
+        .opções {
+            display: none;
+        }
+        
+        .container-texto {
+            display: none;
+        }
+        /*media.query objetivo apicar um estilo ao chegar em determinada resolução da tela */
+        
+        @media screen and (min-width:1024px) {
+            .container-titulo,
+            .container-negrito {
+                font-family: var(--font-secudaria);
+                font-size: 30px;
+                display: block;
+            }
+            .container-titulo {
+                font-weight: 400;
+            }
+            .container-negrito {
+                font-weight: 700;
+            }
+            .opções {
+                display: flex;
+                color: black;
+            }
+            .opções-item {
+                padding: 0.2em;
+                text-transform: uppercase;
+            }
+            .opções-link {
+                text-decoration: none;
+                color: black;
+            }
+            .transparente-favoritos {
+                display: none;
+            }
+            .cabeçalho__menu-hamburguer {
+                display: none;
+            }
+            .opções-botão:checked~.lista-menu {
+                display: block;
+                width: auto;
+            }
+            .opções-botão {
+                display: none;
+            }
+        }
+        
+        @media screen and (min-width:1728px) {
+            .container-link {
+                display: flex;
+                align-items: center;
+                color: var(black);
+                text-decoration: none;
+            }
+            .cabeçalho {
+                padding: 0 2em;
+            }
+            .opções {
+                margin-right: auto;
+            }
+            .container-texto {
+                display: block;
+            }
+        }
