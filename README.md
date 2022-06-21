@@ -4,16 +4,9 @@ Olá tudo bem devs? hoje trago para vocês um projeto proposto pela alura com me
 
 Layout Desktop 
 ![alurabook](https://user-images.githubusercontent.com/98132837/174701597-a291113e-1005-496c-b6c1-05be85c991e6.png)
-
-
-
-
-
-
-
-
-
-
+<br>
+<br>
+<br>
 
 Layout Reponsividade Mobile
 
