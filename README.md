@@ -5,4 +5,4 @@ Link para visualização do projeto:https://ikauematos.github.io/Books---Mobile-
 
 Layout Reponsividade Mobile
 
-(https://user-images.githubusercontent.com/98132837/174702258-47fd0604-c335-4310-bfd0-ee7c05474860.png)
+https://user-images.githubusercontent.com/98132837/174702258-47fd0604-c335-4310-bfd0-ee7c05474860.png
